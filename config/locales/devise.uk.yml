@@ -3,8 +3,8 @@ uk:
   devise:
     confirmations:
       confirmed: Ваша поштова скринька була успішно підтверджена.
-      send_instructions: Ви отримаєте листа з інструкціями щодо підтвердження вашої адреси через декілька хвилин.
-      send_paranoid_instructions: Якщо ваша поштова скринька існує в нашій базі даних, то Ви отримаєте листа з інструкціями щодо підтвердження вашої адреси через декілька хвилин.
+      send_instructions: Ви отримаєте листа з інструкціями щодо підтвердження Вашої адреси через декілька хвилин.
+      send_paranoid_instructions: Якщо Ваша поштова скринька існує в нашій базі даних, то Ви отримаєте листа з інструкціями щодо підтвердження Вашої адреси через декілька хвилин.
     failure:
       already_authenticated: Ви вже увійшли.
       inactive: Ваш акаунт ще не активований.
@@ -13,49 +13,49 @@ uk:
       locked: Ваш акаунт заблокований.
       not_found_in_database: Неправильний %{authentication_keys} або пароль.
       timeout: Ваша сесія вичерпана. Будь ласка, зайдіть знову, щоб продовжити.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your email address before continuing.
+      unauthenticated: Для продовження Вам потрібно увійти або зареєструватися.
+      unconfirmed: Для продовження вам потрібно підтвердити Вашу поштову скриньку.
     mailer:
       confirmation_instructions:
-        subject: 'Mastodon: Confirmation instructions'
+        subject: 'Mastodon: Інструкції для підтвердження'
       password_change:
-        subject: 'Mastodon: Password changed'
+        subject: 'Mastodon: Ваш пароль змінений'
       reset_password_instructions:
-        subject: 'Mastodon: Reset password instructions'
+        subject: 'Mastodon: Інструкції для скидання паролю'
       unlock_instructions:
-        subject: 'Mastodon: Unlock instructions'
+        subject: 'Mastodon: Інструкції для розблокування'
     omniauth_callbacks:
-      failure: Could not authenticate you from %{kind} because "%{reason}".
-      success: Successfully authenticated from %{kind} account.
+      failure: Ми не змогли аутентифікувати Вас з %{kind} через те, що "%{reason}".
+      success: Успішно аутентифіковано з %{kind} акаунту.
     passwords:
-      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
-      send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
-      updated: Your password has been changed successfully. You are now signed in.
-      updated_not_active: Your password has been changed successfully.
+      no_token: Ви не можете отримати доступ до цієї сторінки без переходу за посиланням з листа з інструкціями. Якщо ви все ж таки перейшли з цього листа, переконайтеся, що ви перейшли за повним посиланням.
+      send_instructions: Ви отримаєте листа з інструкціями щодо зміни паролю через декілька хвилин.
+      send_paranoid_instructions: Якщо Ваша поштова адреса існує у Вашій базі даних, Ви отримаєте листа з інструкціями щодо зміни паролю через декілька хвилин.
+      updated: Ваш пароль було успішно змінено. Тепер Ви увійшли в акаунт.
+      updated_not_active: Ваш пароль було успішно змінено.
     registrations:
-      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address.
-      updated: Your account has been updated successfully.
+      destroyed: До побачення! Ваш акаунт було успішно вимкнено. Сподіваємось, що Ви скоро повернетеся.
+      signed_up: Ласкаво просимо! Ви були успішно зареєстровані.
+      signed_up_but_inactive: Ви були успішно зареєстровані, але ми не змогли увійти, тому що Ваш акаунт все ще не активований.
+      signed_up_but_locked: Ви були успішно зареєстровані, але ми не змогли увійти, тому що Ваш акаунт заблокований.
+      signed_up_but_unconfirmed: Повідомлення з посиланням на підтвердження будо відправлено на Вашу поштову скриньку. Будь ласка, перейдіть за ним, щоб активувати Ваш акаунт.
+      update_needs_confirmation: Ви успішно оноВили Ваш акаунт, але нам потрібно підтвердити Вашу нову поштову адресу. Будь ласка, перевірте Вашу скриньку та перейдіть за посиланням, щоб активувати Вашу нову адресу.
+      updated: Ваш акаунт було успішно оновлено.
     sessions:
-      already_signed_out: Signed out successfully.
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      already_signed_out: Ви вже вийшли з акаунту.
+      signed_in: Ви успішно увійшли в акаунт.
+      signed_out: Ви успішно Вийшли з акаунту.
     unlocks:
-      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      send_instructions: Ви отримаєте листа з інструкціями щодо розблокування Вашого акаунту через декілька хвилин.
+      send_paranoid_instructions: Якщо Ваш акаунт існує, Ви отримаєте листа з інструкціями щодо розблокування Вашого акаунту через декілька хвилин.
+      unlocked: Ваш акаунт було успішно активовано. Будь ласка, увійдіть, щоб продовжити.
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      already_confirmed: вже був підтверджений, будь ласка, спробуйте увійти
+      confirmation_period_expired: повинен бути підтверджений за %{period}, будь ласка, запросіть новий
+      expired: недійсний, будь ласка, запросіть новий
+      not_found: не знайдено
+      not_locked: не був заблокований
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 помилка не дала цьому %{resource} зберегтися:'
+other: "%{count} помилок не дало цьому %{resource} зберегтися:"

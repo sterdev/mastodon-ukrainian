@@ -26,5 +26,5 @@ uk:
     'no': 'Ні'
     required:
       mark: "*"
-      text: required
+      text: обов'язкове
 'yes': 'Так'
